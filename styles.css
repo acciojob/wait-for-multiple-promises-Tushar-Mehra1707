@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+ table {
+      width: 50%;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    #loading {
+      font-style: italic;
+      color: gray;
+    }
