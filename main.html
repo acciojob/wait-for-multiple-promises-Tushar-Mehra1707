@@ -3,40 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Promise Time Tracker</title>
-  <style>
-    table {
-      width: 50%;
-      border-collapse: collapse;
-      margin: 20px auto;
-    }
-
-    th, td {
-      padding: 10px;
-      border: 1px solid #ccc;
-      text-align: center;
-    }
-
-    #loading {
-      font-style: italic;
-      color: gray;
-    }
-  </style>
-</head>
-<body>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Promise</th>
-        <th>Time Taken (Seconds)</th>
-      </tr>
-    </thead>
-    <tbody id="output">
-      <tr id="loading-row">
-        <td colspan="2" id="loading">Loading...</td>
-      </tr>
-    </tbody>
-  </table>
+	<table border="1">
+  <thead>
+    <tr>
+      <th>Promise</th>
+      <th>Time Taken (Seconds)</th>
+    </tr>
+  </thead>
+  <tbody id="output">
+    <tr id="loadingRow">
+      <td colspan="2">Loading...</td>
+    </tr>
+  </tbody>
+</table>
 
   <script src="script.js"></script>
 </body>
